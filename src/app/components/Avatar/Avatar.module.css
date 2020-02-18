@@ -1,0 +1,20 @@
+.avatar {
+  margin-top: -40px;
+  height: 400px;
+  width: 240px;
+
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.avatar > img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .avatar {
+    margin: 0;
+    display: flex;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,16 @@
+.settings {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #00bcd4;
+}
+
+.settings div {
+  margin: 10px;
+}
+
+input {
+  margin: 0 8px;
+}
